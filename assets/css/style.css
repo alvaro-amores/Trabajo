@@ -1790,7 +1790,7 @@ p {
   border-color: #000;
 }
 .dropdown.dropdown-white .dropdown-menu li:hover > a {
-  background-color: greenyellow;
+  background-color: #542ded;
   color: #fff;
 }
 .dropdown.dropdown-white .dropdown-menu li:hover > a i {
