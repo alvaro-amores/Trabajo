@@ -8544,6 +8544,9 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 30px;
+  border-radius: 20px;
+  border-style: solid;
   background-color: #fafafa;
 }
 @media (max-width: 767px) {
@@ -8583,6 +8586,7 @@ p {
 }
 .product-style-7 .product-image .product-active .product-item img {
   width: 100%;
+  border-radius: 20px;
 }
 .product-style-7 .product-image .product-active .slick-arrow {
   position: absolute;
