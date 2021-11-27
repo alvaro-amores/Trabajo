@@ -24,3 +24,12 @@ body{
     box-shadow: opx 1px 10px
     rgba(0,0,0,0.3);
 }
+.boton{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background: #1a84d3;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
