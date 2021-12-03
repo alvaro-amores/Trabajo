@@ -9,6 +9,6 @@ loginButton.addEventListener("click", (e) => {
     if (email === "crisalgo@gmail.com" && password === "crisalgo") {
         location.href="account-page.html";
     } else {
-        alert("El email o/y la contraseña incorrecta.");
+        alert("El email o la contraseña es incorrecta.");
     }
 })
