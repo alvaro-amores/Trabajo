@@ -8,7 +8,6 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (email === "crisalgo@gmail.com" && password === "crisalgo") {
-        alert("You have successfully logged in.");
         location.href="account-page.html";
     } else {
         loginErrorMsg.style.opacity = 1;
