@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/default.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script defer src="login.js"></script>
 </head>
 
 <body>
@@ -584,18 +586,18 @@
                     <div class="login-registration-style-2 mt-50">
                         <h1 class="heading-4 font-weight-500 title">Iniciar sesión</h1>
                         <div class="login-registration-form pt-10">
-                            <form action="#">
+                            <form action="#" id="login-form">
                                 <div class="single-form form-default form-border">
                                     <label>Correo electrónico</label>
                                     <div class="form-input">
-                                        <input type="email" placeholder="usuario@email.com">
+                                        <input type="email" name="email" placeholder="usuario@email.com">
                                         <i class="mdi mdi-email"></i>
                                     </div>
                                 </div>
                                 <div class="single-form form-default form-border">
                                     <label>Contraseña</label>
                                     <div class="form-input">
-                                        <input id="password-7" type="password" placeholder="Contraseña">
+                                        <input id="password-7" type="password" name="password" placeholder="Contraseña">
                                         <i class="mdi mdi-lock"></i>
                                         <span toggle="#password-7" class="mdi mdi-eye-outline toggle-password"></span>
                                     </div>
@@ -608,9 +610,12 @@
                                     </div>
                                     <a class="forget" href="#">¿Has olvidado la contraseña?</a>
                                 </div>
+                                <div id="login-error-msg-holder">
+                                    <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                                </div>
                                 <div class="single-form">
                                     
-                                    <a id="boton" href="account-page.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Iniciar sesion</a>
+                                    <a type="submit" id="login-form-submit" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Iniciar sesion</a>
                                     
                                 </div>
                             </form>
